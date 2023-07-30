@@ -24,7 +24,7 @@ copyright = "2020, RocketPy Team"
 author = "Giovani Hidalgo Ceotto"
 
 # The full version, including alpha/beta/rc tags
-release = "0.13.0"
+release = "0.13.1"
 
 
 # -- General configuration ---------------------------------------------------
@@ -36,6 +36,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
+    "sphinx.ext.mathjax",
     "nbsphinx",
     "m2r2",
 ]
@@ -77,7 +78,8 @@ html_theme_options = {
     "logo_link": "index",
     "github_url": "https://github.com/RocketPy-Team/RocketPy",
     "collapse_navigation": True,
-    "show_toc_level": 3,
+    "show_toc_level": 4,
+    "show_nav_level": 4,
 }
 
 html_sidebars = {
